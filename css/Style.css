@@ -1,0 +1,596 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    text-transform: capitalize;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+#c img {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+#o img {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+#v img {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+#i img {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+#d img {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.do {
+    padding: 0 15px;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+.do span {
+    color: white;
+}
+
+.navbar-nav {
+    padding: 5px 0;
+
+}
+
+.navbar-nav li {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+    color: cornflowerblue !important;
+}
+
+#how {
+    padding: 8px 25px;
+    background-color: rgb(35, 103, 228);
+    color: white;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+#about {
+    color: rgb(35, 103, 228);
+    font-weight: 500;
+    margin-left: 5px;
+
+}
+
+#title {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.title {
+    position: relative;
+}
+
+#covid, #virus {
+    position: absolute;
+}
+
+#covid {
+    top: 28px;
+    right: 22%;
+    font-weight: bolder;
+    font-size: 25px;
+    color: red;
+}
+
+#virus {
+    top: 69px;
+    right: 24%;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+#buttons {
+    margin-top: 70px;
+}
+
+#title1 {
+    color: cornflowerblue;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#title2 {
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+#bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.links li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border: 1px solid rgba(204, 204, 204, 0.466);
+    text-align: center;
+
+}
+
+.arrow {
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#what {
+    font-weight: bold;
+}
+
+#title3 {
+    font-weight: bold;
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+#title4 {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#title5 {
+    font-weight: bold;
+}
+
+#img {
+    width: 300px;
+    height: 300px;
+}
+
+.card-body {
+    border-top: 5px cornflowerblue solid;
+}
+
+.card-title {
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+#title6 {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: rgb(35, 103, 228);
+    color: white;
+    font-weight: bold;
+}
+
+#title7 {
+    font-weight: bold;
+    color: rgb(35, 103, 228);
+    font-size: 20px;
+}
+
+#title8 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pic img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+
+}
+
+.title9 {
+    position: relative;
+}
+
+.pic {
+    position: absolute;
+    top: -60px;
+    right: 60px;
+}
+
+.title10 {
+    color: rgb(35, 103, 228);
+    font-weight: bold;
+}
+
+#ques {
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 10px 25px;
+    background-color: rgb(35, 103, 228);
+    color: white;
+}
+
+#ques span {
+    margin-right: 5px;
+}
+
+#title11 span {
+    margin-right: 6px;
+    color: rgb(35, 103, 228);
+
+    font-size: 35px;
+}
+
+#sss {
+    margin-top: 20px;
+}
+
+#title12 {
+    color: rgb(35, 103, 228);
+    font-weight: bold;
+}
+
+#title13 {
+    font-weight: bold;
+}
+
+.pic1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.title14 {
+    font-weight: bold;
+}
+
+#check {
+    padding: 10px 15px;
+    background-color: rgb(35, 103, 228);
+    color: white;
+    border-radius: 20px;
+}
+
+#controls a {
+    margin-left: 20px;
+}
+
+.pic2 img {
+    width: 300px;
+    height: 350px;
+}
+
+.check {
+    color: rgb(106, 236, 106);
+}
+
+#title15 {
+    font-weight: bolder;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+#wash {
+    color: rgb(35, 103, 228);
+    font-weight: bold;
+}
+
+#title16, #title17 {
+    color: white;
+    font-weight: bold;
+}
+
+#bor {
+    width: 300px;
+    margin-top: 20px;
+    background-color: blue;
+}
+
+#bor p, #bor li {
+    color: white;
+}
+
+#bor li span {
+    margin-right: 10px;
+}
+
+#self, #med {
+    font-weight: bolder;
+}
+
+#med {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#self {
+    font-size: 20px;
+}
+
+#bor1 p, #bor1 h2 {
+    color: white;
+}
+
+#bor1 {
+    margin-top: 65px;
+}
+
+.nav1 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    background-color: white;
+
+
+}
+
+#title18 {
+    color: rgb(35, 103, 228);
+    font-weight: bold;
+}
+
+#title19 {
+    font-weight: bold;
+}
+
+.pic7 {
+    width: 500px;
+    height: 500px;
+}
+
+.pic4, .pic5, .pic6, .pic8, .pic9, .pic10 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    padding: 18px;
+}
+
+.icon4, .icon5, .icon6, .icon8, .icon9, .icon10 {
+    position: absolute;
+    top: 16;
+
+}
+
+.icon4, .icon5, .icon6 {
+    left: 17px;
+}
+
+.icon8, .icon9, .icon10 {
+    right: 17px;
+}
+
+.pic4 img, .pic5 img, .pic6 img {
+    border: 1px solid red;
+    border-radius: 50%;
+
+}
+
+.pic8 img, .pic9 img, .pic10 img {
+    border: 1px solid springgreen;
+    border-radius: 50%;
+
+}
+
+.icon4 .fa-solid, .icon5 .fa-solid, .icon6 .fa-solid {
+    color: red;
+    background-color: white;
+
+
+}
+
+.icon8 .fa-solid, .icon9 .fa-solid, .icon10 .fa-solid {
+    color: springgreen;
+    background-color: white;
+
+
+}
+
+#title20 {
+    color: rgb(35, 103, 228);
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#questions li {
+    border: 1px solid #ccc;
+    padding: 6px 6px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #bedef7;
+    padding: 10px 30px;
+    text-align: left;
+}
+
+.content {
+    text-align: left;
+    padding: 0px 30px;
+    transition: all .4s ease-in-out;
+
+}
+
+.accordion1, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6 {
+    margin-top: 15px;
+    border: 1px solid rgb(240, 238, 238);
+    position: relative;
+}
+
+.plus-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+}
+
+.minus-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.add {
+    border: 2px solid cornflowerblue !important;
+    cursor: pointer;
+
+}
+
+#news .titl {
+    color: cornflowerblue;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#news .titl1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(121, 95, 95);
+}
+
+.tit {
+    text-align: left;
+    font-size: 14px;
+}
+
+#news h5 {
+    text-align: left;
+    margin-top: 20px;
+    color: cornflowerblue;
+}
+
+footer {
+    background-color: rgb(48, 47, 73);
+    height: 650px;
+}
+
+.pic12 {
+    margin-top: 20px;
+}
+
+#footer-tit p {
+    color: #ccc;
+    font-weight: bold;
+}
+
+#footer-tit {
+    margin-top: 40px;
+}
+
+#fac, #twitt, #insta {
+    padding: 15px 35px;
+}
+
+#fac {
+    background-color: rgb(34, 102, 228);
+    color: white;
+}
+
+#twitt {
+    background-color: rgb(32, 215, 221);
+    color: white;
+}
+
+#insta {
+    background-color: rgb(231, 94, 140);
+    color: white;
+}
+
+.soc-btn {
+    margin-top: 10px;
+}
+
+.li-hold li {
+    display: block;
+}
+
+.li-hold {
+    margin-top: 35px;
+}
+
+.li-hold li:first-child {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.li-hold a {
+    color: grey;
+    font-weight: bold;
+}
+
+#end {
+    margin-top: 50px;
+    color: #ccc;
+}
+
+#madeby, #pc, #disc {
+    color: #ccc;
+}
+
+#madeby p span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#go-to-top {
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    width: 63px;
+    height: 52px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+#go-to-top a {
+    color: cornflowerblue;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px 10px;
+    font-size: 25px;
+    margin-top: 10px;
+    display: inline-block;
+
+}
